@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Citizen Module"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/kenyanflag"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:id="@+id/userid_user"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:hint="User ID"/>
+        <EditText
+            android:id="@+id/passwordUser"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:hint="Password"/>
+
+        <TextView
+            android:id="@+id/loginUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:clickable="true"
+            android:background="@drawable/round_pinkbtn"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/or"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+
+            >
+            <TextView
+                android:id="@+id/new_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact administrator to get an account"
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="8dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

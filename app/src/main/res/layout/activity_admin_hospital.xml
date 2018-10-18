@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.cisproject.AdminHospitalActivity"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:text="Hospital Attended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="40dp"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:id="@+id/HospitalNationalId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:textColorHint="#000"
+            android:inputType="textPersonName"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"/>
+        <EditText
+            android:id="@+id/HospitalName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:textColorHint="#000"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:hint="Name of Hospital"/>
+        <EditText
+            android:id="@+id/HospitalLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:textColorHint="#000"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:hint="Location"/>
+        <EditText
+            android:id="@+id/HospitalDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:inputType="textPersonName"
+            android:textColorHint="#000"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:hint="Date Visited"/>
+        <EditText
+            android:id="@+id/HospitalReason"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:inputType="textPersonName"
+            android:textColorHint="#000"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:hint="Reason to visit hospital"/>
+
+        <Button
+            android:text="Add Hospital"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:id="@+id/btnHospitalAdd" />
+        <Button
+            android:text="Finish"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:id="@+id/btnHospitalSkip" />
+    </LinearLayout>
+
+</ScrollView>
+
+
+

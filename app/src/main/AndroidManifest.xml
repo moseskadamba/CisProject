@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.cisproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kenyanflag"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kenyanflag"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".CitizenLoginActivity" />
+        <activity android:name=".AdminDashboardActivity" />
+        <activity android:name=".CitizenDashboardActivity" />
+        <activity android:name=".AdminRegisterActivity" />
+        <activity android:name=".AdminViewCitizensActivity" />
+        <activity android:name=".AdminPrimaryActivity" />
+        <activity android:name=".AdminHighActivity" />
+        <activity android:name=".AdminUniversityActivity" />
+        <activity android:name=".AdminHospitalActivity" />
+        <activity android:name=".ShowAllCitizensActivity" />
+        <activity android:name=".ShowSingleRecordActivity"></activity>
+    </application>
+
+</manifest>
